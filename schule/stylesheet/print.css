@@ -1,0 +1,52 @@
+body , html {
+	margin: 0 auto;
+	width: 800px;
+	font-family: 'Open Sans';
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(open_sans.woff2) format('woff2');
+}
+
+input {
+	padding: 10px;
+	width: 470px;
+}
+
+td {
+	padding: 5px;
+}
+
+hr {
+	margin-top: 35px;
+	width: 350px;
+	float: right;
+	}
+	
+progress {
+	margin-top: 25px;
+	margin-bottom: 50px;
+	width: 100%;
+	border: 1px solid #797979;
+	background-color: #E0E0E0;
+	
+}
+
+table {
+	border-collapse:collapse;
+}
+
+.mitte {
+	text-align: center;
+}
+
+.rechts {
+	text-align: right;
+}
+
+a {
+	display: none;
+}

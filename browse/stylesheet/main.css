@@ -1,0 +1,262 @@
+@font-face {
+	font-family: 'OpenSans'; 
+	src: url('fonts/OpenSans.woff') format('woff');
+}
+
+body , html {
+	margin: 0 auto;
+	font-family: 'OpenSans'; 
+}
+
+#ausbildungsnachweis {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 720px;
+}
+
+#ausbildungsnachweis-überschrift {
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+
+#ausbildungsnachweis-überschrift h1 {
+	line-height: 55px;
+	font-size: 18px;
+}
+
+#ausbildungsnachweis-überschrift span {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#ausbildungsnachweis-überschrift-sub-1 {
+	margin-bottom: -10px;
+}
+
+#ausbildungsnachweis-überschrift-sub-1 h2 {
+	font-size: 16px;
+}
+
+#ausbildungsnachweis-überschrift-sub-1 span {
+	width: 302px;
+	display: inline-block;
+	font-weight: normal;
+	margin-left: 5px;
+	border-bottom: 1px solid #C0C0C0;
+}
+#ausbildungsnachweis-überschrift-sub-2 {
+	margin-bottom: -10px;
+}
+
+#ausbildungsnachweis-überschrift-sub-2 p {
+	font-size: 16px;
+}
+
+#ausbildungsnachweis-überschrift-sub-2 span {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#ausbildungsnachweis-überschrift-sub-3 p {
+	font-size: 16px;
+}
+
+#ausbildungsnachweis-überschrift-sub-3 span {
+	margin-left: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#ausbildungsnachweis table {
+	border-collapse: collapse;
+	font-size: 12px;
+	border-color: #000000;
+}
+
+#ausbildungsnachweis th {
+	font-weight: normal;
+	padding: 5px;
+	-moz-hyphens: auto;
+   -o-hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   hyphens: auto; 
+}
+
+#ausbildungsnachweis td {
+	padding: 3px;
+	border-color: #000000;
+}
+
+#ausbildungsnachweis .mitte {
+	text-align: center;
+}
+
+#ausbildungsnachweis .vertikal {
+	-webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  filter: none; /*Mandatory for IE9 to show the vertical text correctly*/  
+	text-align: center;
+	white-space: nowrap;
+}
+
+#ausbildungsnachweis .bottom {
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+}
+
+#ausbildungsnachweis-gesamt {
+	width: 100%;
+
+}
+#ausbildungsnachweis-gesamt-stunden {
+	text-transform: italic;
+	width: 484px;
+	float: left;
+	text-align: right;
+	margin-right: 19px;
+}
+
+#ausbildungsnachweis-gesamt-stunden-sub {
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+	width: 71px;
+	float: left;
+}
+
+#ausbildungsnachweis-gesamt-stunden-text {
+	text-align: center;
+	margin-bottom: 3px;
+	border-bottom: 1px solid;
+}
+
+.ausbildungsnachweis-links-linie {
+	border-left: 1px solid;
+}
+
+.ausbildungsnachweis-unten-linie {
+	border-bottom: 1px solid;
+}
+
+.überschrift {
+	float: left;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.sub-überschrift {
+	float: left;
+	font-size: 10px;
+	
+}
+
+#box {
+	border: 1px solid;
+	width: 100%;
+	height: auto;
+	clear: right;
+	float: left;
+	margin-top: 10px;
+}
+
+#s-box {
+	clear: right;
+	width: 358px;
+	height: 60px;
+	float: left;
+}
+
+#s-box span {
+	padding: 5px;
+}
+
+.datum {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 10px;
+	width: 50px;
+	text-decoration: overline;
+}
+
+.datum:after {
+	content:"\00a0\00a0\00a0\00a0\00a0";
+}
+
+.s-überschrift {
+	font-size: 14px;
+	font-style: italic;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.unterschrift-1 {
+	margin-left: 10px;
+	font-size: 10px;
+	width: 250px;
+	text-decoration: overline;
+}
+
+.unterschrift-1:after {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	text-decoration: overline;
+}
+
+.unterschrift-2 {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 10px;
+	width: 250px;
+	text-decoration: overline;
+	line-height: 105px;
+}
+
+.unterschrift-2:after {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	text-decoration: overline;
+}
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+	

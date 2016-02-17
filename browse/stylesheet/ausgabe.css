@@ -8,10 +8,12 @@ body , html {
 	font-family: 'OpenSans'; 
 }
 
+
 #ausbildungsnachweis {
 	margin: 0 auto;
-	margin-top: 20px;
 	width: 720px;
+	background-color: #FFF;
+	padding: 15px;
 }
 
 #ausbildungsnachweis-überschrift {
@@ -99,17 +101,6 @@ body , html {
 	text-align: center;
 }
 
-#ausbildungsnachweis .vertikal {
-	-webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-  filter: none; /*Mandatory for IE9 to show the vertical text correctly*/  
-	text-align: center;
-	white-space: nowrap;
-}
-
 #ausbildungsnachweis .bottom {
 	border-bottom: 1px solid;
 	border-left: 1px solid;
@@ -139,6 +130,7 @@ body , html {
 	text-align: center;
 	margin-bottom: 3px;
 	border-bottom: 1px solid;
+	font-size: 14px;
 }
 
 .ausbildungsnachweis-links-linie {
@@ -165,7 +157,7 @@ body , html {
 	border: 1px solid;
 	width: 100%;
 	height: auto;
-	clear: right;
+	clear: both;
 	float: left;
 	margin-top: 10px;
 }
@@ -226,37 +218,42 @@ body , html {
 	text-decoration: overline;
 }
 
-div.pagination {
-	padding: 3px;
-	margin: 3px;
+
+.pagination {
+	width: 200px;
+	height: auto;
+	padding: 5px;
 }
 
-div.pagination a {
-	padding: 2px 5px 2px 5px;
+.pagination span.current {
+	color: #FFFFFF;
+	padding: 10px;
 	margin: 2px;
-	border: 1px solid #AAAADD;
-	
-	text-decoration: none; /* no underline */
-	color: #000099;
+	border: 1px solid #9E9E9E;
+	background-color: #2F3236;
+	border: 1px solid;
+	border-color: #53585D;
+	border-radius: 5px;
 }
-div.pagination a:hover, div.pagination a:active {
-	border: 1px solid #000099;
-	color: #000;
+
+.pagination a {
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 5px;
+	background-color: #53585D;
+	border: 1px solid;
+	border-color: #53585D;
+	border-radius: 5px;
+	text-decoration: none;
 }
-div.pagination span.current {
-	padding: 2px 5px 2px 5px;
-	margin: 2px;
-		border: 1px solid #000099;
-		
-		font-weight: bold;
-		background-color: #000099;
-		color: #FFF;
-	}
-	div.pagination span.disabled {
-		padding: 2px 5px 2px 5px;
-		margin: 2px;
-		border: 1px solid #EEE;
-	
-		color: #DDD;
+
+.pagination a:hover {
+	color: #FFFFFF;
+	background-color: #2F3236;
+}
+
+.pagination span.disabled {
+	display: none;
+
 	}
 	
